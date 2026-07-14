@@ -3,7 +3,7 @@
 An AI-first CRM module for pharma/life-science field representatives to log
 their interactions with Healthcare Professionals (HCPs), either through a
 **structured form** or a **conversational chat interface** powered by a
-**LangGraph agent** running on **Groq (gemma2-9b-it)**.
+**LangGraph agent** running on **Groq (openai/gpt-oss-20b)**.
 
 ## Architecture
 
@@ -98,7 +98,7 @@ FastAPI backend on port 8000.
 
 ```
 GROQ_API_KEY=your_key_here
-GROQ_MODEL=gemma2-9b-it
+GROQ_MODEL=openai/gpt-oss-20b
 DATABASE_URL=postgresql+psycopg2://postgres:postgres@localhost:5432/hcp_crm
 ```
 
